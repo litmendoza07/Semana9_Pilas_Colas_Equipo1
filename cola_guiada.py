@@ -1,4 +1,5 @@
-cola = []
+from collections import deque 
+cola = deque()
 
 
 def registrar_paciente(nombre):

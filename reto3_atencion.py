@@ -1,4 +1,5 @@
-cola_clientes = []
+from collections import deque
+cola_clientes = deque()
 siguiente_turno = 1
 
 
